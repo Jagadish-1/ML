@@ -3,9 +3,9 @@ X = np.array(([2, 9], [1, 5], [3, 6]))
 y = np.array(([92], [86], [89]))
 y = y/100 # max test score is 100
 def sigmoid(x):
-return 1/(1 + np.exp(-x))
+	return 1/(1 + np.exp(-x))
 def derivatives_sigmoid(x):
-return x * (1 - x)
+	return x * (1 - x)
 epoch=10000
 lr=0.1
 inputlayer_neurons = 2
