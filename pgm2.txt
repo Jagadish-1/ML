@@ -30,8 +30,8 @@ for i in range(0,len(a)):
 				temp.append(G)
 				G=['?']*num_att
 	print(S)
- if len(temp)==0:
- print(G)
- else:
- print(temp)
- print("......................................................................")
+ 	if len(temp)==0:
+		print(G)
+ 	else:
+		print(temp)
+	print("......................................................................")
